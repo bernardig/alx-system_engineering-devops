@@ -1,0 +1,2 @@
+#!/bin/bush
+grep -i '^[a-z]' /etc/ssh/sshd_config 
