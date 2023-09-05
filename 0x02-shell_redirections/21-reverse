@@ -1,0 +1,8 @@
+#!/bin/bash
+read -r input_text
+length=${#input_text}
+reversed_text=""
+for ((i = length - 1; i >= 0; i--)); do
+    reversed_text="${reversed_text}${input_text:$i:1}"
+done
+echo "$reversed_text"
