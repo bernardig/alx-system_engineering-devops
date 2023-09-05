@@ -1,0 +1,4 @@
+#!/bin/bash
+read -r input_text
+modified_text=$(echo "$input_text" | tr -d 'cC')
+echo "$modified_text"
